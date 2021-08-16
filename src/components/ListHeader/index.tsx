@@ -14,10 +14,13 @@ export function ListHeader({title, subtitle}: Props) {
     return (
         <View style = {styles.container}>
 
-            <Text>
-
+            <Text style = {styles.title}>
+                { title }
             </Text>
 
+            <Text style = {styles.subtitle}>
+                { subtitle }
+            </Text>
         </View>
 
     )
